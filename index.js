@@ -687,7 +687,7 @@ const runDailyTask = () => {
 };
 
 mongoose
-  .connect("mongodb+srv://amazon:wfao74K8WVNBahDQ@arab.dzdqr5o.mongodb.net/migration")
+  .connect("mongodb+srv://arab:IcRiHTm7EOavqWlu@cluster0.emazq5u.mongodb.net/ArabV1")
   .then((conn) =>
     server.listen(PORT, () => {
       runDailyTask();
